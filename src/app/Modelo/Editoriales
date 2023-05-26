@@ -1,0 +1,11 @@
+export class Editoriales {
+    id:number;
+    Nombre:string;
+    Sede:string;
+   
+    constructor(id: number, Nombre:string, Sede:string) {
+         this. id=id; 
+         this.Nombre=Nombre;
+         this.Sede=Sede;
+       }
+     }

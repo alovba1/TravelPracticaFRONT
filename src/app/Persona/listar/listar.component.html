@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h3>LIBROS</h3>
+    </div>
+    <div class="card-body">
+      <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">TITULO</th>
+                <th scope="col">SINOPSIS</th>
+                <th scope="col">NUMERO DE PAGINAS</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor='let item of libros' class="text-center"> 
+                    <td>{{item.id}}</td>
+                    <td>{{item.titulo}}</td>
+                    <td>{{item.sinopsis}}</td>
+                    <td>{{item.n_paginas}}</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+        </table>
+
+    </div>
+
+</div>
